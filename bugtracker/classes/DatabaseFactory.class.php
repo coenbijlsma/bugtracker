@@ -11,7 +11,7 @@ class DatabaseFactory {
     
     public static function getMySQLi(){
     	if(is_null(self::$_instance)){
-    		self::$_instance = new Database('localhost', 'root', 'fietsrekbureaustoel', 'bugtracker');
+    		self::$_instance = new Database('localhost', 'foo', 'bar', 'bugtracker');
     	}
         return self::$_instance;
     }
