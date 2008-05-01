@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+div.bottom_info{
+	font-size: 12px;
+	text-align: center;
+}
+
+div.login table {
+	background-color: lightgray;
+	border-width: 0px;
+}
+
+div.login tr.login_info {
+	background-color: gray;
+	font-weight: bold;
+}

@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+/*
+ De afmetingen van de site zijn 800 x 900 px;
+*/
+
+body {
+	font-size: 9pt;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+div.menu#left {
+	background-color: lightblue;
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 200px;
+	height: 100%;
+}
+
+div.menu#top {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 100px;
+	background-color: lightblue;
+}
+
+div.content#center {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 600px;
+	height: 100%;
+	padding-left: 5px;
+}
+
+div.content#center table.overview_bugs td {
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+div.content#center table.overview_bugs tr.new_replies td {
+	background-color: lightgreen;
+}
